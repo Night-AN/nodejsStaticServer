@@ -1,4 +1,4 @@
-const { stat, readFile, readdir, readFileSync } = require('fs');
+const { stat, readFile, readdir } = require('fs');
 const { createServer } = require('http');
 const { parse } = require('path');
 const port = 3000;
